@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Library Registration Form</title>
+
+    <style>
+        body{
+            font-family: Arial;
+            background-color: lightgray;
+        }
+
+        form{
+            background-color: white;
+            width: 350px;
+            margin: auto;
+            padding: 20px;
+            border: 1px solid black;
+        }
+
+        input, select{
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 5px;
+        }
+
+        button{
+            width: 100%;
+            padding: 8px;
+            background-color: blue;
+            color: white;
+        }
+    </style>
+
+</head>
+
+<body>
+
+<h2 align="center">Library Registration Form</h2>
+
+<form>
+
+<label>Student Name</label>
+<input type="text" required>
+
+<label>Email Address</label>
+<input type="email" required>
+
+<label>Membership Type</label><br>
+<input type="radio" name="type"> Regular
+<input type="radio" name="type"> Premium
+<br>
+
+<label>Preferred Book Category</label>
+<select>
+    <option>Science</option>
+    <option>Technology</option>
+    <option>Literature</option>
+    <option>History</option>
+</select>
+
+<label>Reading Interests</label><br>
+<input type="checkbox"> Fiction<br>
+<input type="checkbox"> Non-Fiction<br>
+<input type="checkbox"> Research Journals<br><br>
+
+<label>Comments</label><br>
+<textarea rows="4" cols="40"></textarea>
+<br><br>
+
+<button type="submit">Submit</button>
+
+</form>
+
+</body>
+</html>
